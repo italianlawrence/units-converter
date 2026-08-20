@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: #6943FF;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#input-nmb {
+    width: 150px;
+    background-color: #6943FF;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    text-align: inherit;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#input-nmb::placeholder {
+    color: lightgrey;
+}
+
+#convert {
+    display: block;
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+#convert:hover {
+    background-color: lightgrey;
+}
+
+.conversion {
+    display: inline;
+}
+
+.output-fields {
+    background-color: #1F2937;
+    margin: 3px;
+    margin-top: 50px;
+    padding: 90px;
+}
+
+.output-field {
+    background-color: #273549;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+.output-field h2 {
+    color: #A29DD1;
+}
